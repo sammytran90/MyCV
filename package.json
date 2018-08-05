@@ -1,0 +1,28 @@
+{
+  "name": "mycv",
+  "version": "1.0.0",
+  "description": "just a CV",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammytran90/MyCV.git"
+  },
+  "keywords": [
+    "myCV"
+  ],
+  "author": "Trung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammytran90/MyCV/issues"
+  },
+  "homepage": "https://github.com/sammytran90/MyCV#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "html-pdf": "^2.2.0"
+  }
+}
